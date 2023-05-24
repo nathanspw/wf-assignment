@@ -1,0 +1,7 @@
+version: "3.10"
+services:
+  etl:
+    image: python-img
+    command: python main.py
+    volumes:
+      - .:/app
